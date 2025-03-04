@@ -9,4 +9,14 @@ Daftar tugas / branch
 7. Tugas-finalProject
 
 Daftar perintah GiT
-...
+
+git checkout main
+git pull origin main
+git fetch origin
+git branch -r
+git checkout -b Tugas-finalProject origin/Tugas-finalProject
+git checkout main
+git merge origin/Tugas-finalProject
+git add .
+git commit -m "resolve merge conflict Tugas-finalProjet"
+git push origin main
